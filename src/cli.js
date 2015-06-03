@@ -11,7 +11,7 @@ let configPath = path.resolve(
 let hot = argv.h || argv.hot;
 let directory = path.resolve(
   './',
-  argv._ || argv.d || argv.directory
+  argv._[0] || argv.d || argv.directory
 );
 let port = argv.p || argv.port;
 let devServerPort = argv.devServerPort;
