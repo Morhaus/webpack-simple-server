@@ -40,7 +40,7 @@ npm install react babel-loader
 
 ### app.js
 
-```
+```js
 import React from 'react';
 
 React.render(<div>Hello World</div>, document.body);
@@ -48,7 +48,7 @@ React.render(<div>Hello World</div>, document.body);
 
 ### webpack.config.js
 
-```
+```js
 export default {
   module: {
     loaders: [
