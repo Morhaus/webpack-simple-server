@@ -1,0 +1,26 @@
+{
+  "name": "webpack-simple-server",
+  "version": "0.0.1",
+  "description": "Simple webpack server for serving a directory of entries",
+  "main": "lib/index.js",
+  "author": "Alexandre Kirszenberg <alexandre.kirszenberg@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Morhaus/webpack-simple-server.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf lib/ && babel --stage 0 -d lib/ src/"
+  },
+  "bin": {
+    "webpack-simple-server": "src/cli.js"
+  },
+  "dependencies": {
+    "babel": "^5.4.7",
+    "express": "^4.12.4",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0",
+    "yargs": "^3.10.0"
+  }
+}
