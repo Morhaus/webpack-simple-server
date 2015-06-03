@@ -42,11 +42,11 @@ export default function createServer(
   let publicPath = `http://localhost:${devServerPort}`;
 
   let entry = [
-    `webpack-dev-server/client?${publicPath}`,
+    `${require.resolve('webpack-dev-server/client')}?${publicPath}`,
   ];
 
   if (hot) {
-    entry.push('webpack/hot/only-dev-server');
+    entry.push(require.resolve('webpack/hot/only-dev-server'));
   }
 
   entry.push(r`entry.js`);
