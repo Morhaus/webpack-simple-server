@@ -1,6 +1,6 @@
 {
   "name": "webpack-simple-server",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Simple webpack server for serving a directory of entries",
   "main": "lib/index.js",
   "author": "Alexandre Kirszenberg <alexandre.kirszenberg@gmail.com>",
