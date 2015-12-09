@@ -16,13 +16,13 @@
     "webpack-simple-server": "lib/cli.js"
   },
   "peerDependencies": {
-    "webpack": "^1.9.10"
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
   },
   "dependencies": {
     "babel": "^5.4.7",
     "express": "^4.12.4",
     "node-libs-browser": "^0.5.2",
-    "webpack-dev-server": "^1.9.0",
     "yargs": "^3.10.0"
   }
 }
